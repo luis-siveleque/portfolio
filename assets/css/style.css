@@ -23,31 +23,6 @@ body {
 .content {
 }
 
-#profile.card {
-}
-.profile__section {
-}
-.profile__photo {
-}
-.profile__image {
-}
-.profile__info {
-}
-.profile__name {
-}
-.profile__title {
-}
-.profile__address {
-}
-.profile__contact {
-}
-.profile__phone {
-}
-.profile__email {
-}
-.profile__link {
-}
-
 .card {
   display: flex; /* Use flexbox to arrange items in a row */
   justify-content: space-between;
@@ -102,7 +77,7 @@ body {
 }
 .card__link {
 }
-rd__subtitle {
+.card__subtitle {
 }
 .card__dates {
 }
@@ -117,45 +92,6 @@ rd__subtitle {
 
 .card__title-three {
   color: var(--red);
-}
-
-.about {
-}
-.about__description {
-}
-.about__title {
-}
-
-.education {
-}
-.education__section {
-}
-.education__item {
-}
-.education__title {
-}
-.education__degree {
-}
-.education__subtitle {
-}
-.education__dates {
-}
-
-.experience {
-}
-.experience__section {
-}
-.experience__item {
-}
-.experience__title {
-}
-.experience__position {
-}
-.experience__subtitle {
-}
-.experience__dates {
-}
-.experience__description {
 }
 
 .footer {
