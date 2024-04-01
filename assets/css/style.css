@@ -1,0 +1,203 @@
+:root {
+  --red: #97121c;
+  --black: black;
+}
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 150px;
+  border: 2px solid blue;
+  padding: 10px;
+}
+figure {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  /* border-top-left-radius: 10px; */
+}
+.content__article {
+  display: flex; /* Use flexbox to arrange items in a row */
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  align-items: center; /* Center items vertically */
+  border: 3px solid rgb(75, 12, 12); /* Corrected border property */
+  padding: 10px;
+  margin: 10px 0 0;
+}
+.card__dates {
+}
+.card__description {
+}
+.card__image {
+}
+.card__info {
+}
+
+#profile > .card__item {
+  display: grid;
+
+  background-color: bisque;
+  border: 1px solid rgb(9, 9, 74);
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h3.card__item--title {
+  color: var(--red);
+}
+
+h2.card__title {
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.card__item--subtitle {
+  color: var(--black);
+  text-transform: capitalize;
+  /* text-decoration: underline; */
+  font-style: italic;
+}
+
+.content__section {
+  border: 1px solid black;
+  margin: 0 10px 0;
+  padding: 5px;
+  display: inline-block;
+  width: 50%; /* Each subitem takes 50% of the width */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+  background-color: bisque;
+  border: 1px solid rgb(9, 9, 74);
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card__section {
+  border: 1px solid black;
+  margin: 0 10px 0;
+  padding: 5px;
+  /* display: grid; */
+}
+.card__item--subtitle {
+}
+.card__item--title {
+  padding: 10px;
+}
+
+.card__link {
+}
+.card__subtitle {
+}
+.card__text {
+}
+.card__title {
+  /* order: -1; */
+}
+.content {
+}
+.footer {
+}
+.footer__copyright {
+}
+.header {
+}
+
+/* * dsds */
+/* Styles for header__profile-info element */
+.header__profile-info {
+}
+
+/* Styles for header block */
+.profile {
+  display: flex; /* Use flexbox to arrange items in a row */
+  justify-content: space-between; /* Align items at each end of the container */
+  align-items: center; /* Center items vertically */
+  border: 3px solid rgb(75, 12, 12); /* Corrected border property */
+  padding: 10px;
+}
+
+/* Styles for contact-info element */
+.profile-info {
+  background-color: bisque;
+  border: 1px solid rgb(9, 9, 74); /* Corrected border property */
+  margin: 0 20px; /* Added margin for spacing */
+  padding: 10px; /* Added padding for content */
+  border-radius: 10px; /* Added border radius for rounded corners */
+}
+
+/* Styles for profile-info__name element */
+.profile-info__name {
+  /* Add styles for the profile name if needed */
+}
+
+/* Styles for profile-info__picture element */
+.profile-info__picture {
+  /* Add styles for the profile picture if needed */
+}
+
+/* Styles for profile-info__text element */
+.profile-info__text {
+  /* Add styles for the profile text if needed */
+}
+
+/* Styles for profile-info__title element */
+.profile-info__title {
+  /* Add styles for the profile title if needed */
+}
+
+/* Styles for contact-info block */
+.contact-info {
+  background-color: bisque;
+  border: 1px solid rgb(9, 9, 74); /* Corrected border property */
+  margin: 0 20px; /* Added margin for spacing */
+  padding: 10px; /* Added padding for content */
+  border-radius: 10px; /* Added border radius for rounded corners */
+}
+
+/* Styles for contact-info__address element */
+.contact-info__address {
+  /* Add styles for the address if needed */
+}
+
+/* Styles for contact-info__details element */
+.contact-info__details {
+  /* Add styles for the details if needed */
+}
+
+/* Styles for contact-info__email element */
+.contact-info__email {
+  /* Add styles for the email if needed */
+}
+
+/* Styles for contact-info__email-link element */
+.contact-info__email-link {
+  /* Add styles for the email link if needed */
+}
+
+/* Styles for contact-info__phone element */
+.contact-info__phone {
+  /* Add styles for the phone if needed */
+}
+
+/* Styles for about block */
+.about {
+  margin: 10px 0 0;
+  display: flex; /* Use flexbox to arrange items in a row */
+  justify-content: space-between; /* Align items at each end of the container */
+  align-items: center; /* Center items vertically */
+  border: 3px solid rgb(75, 12, 12); /* Corrected border property */
+  padding: 15px;
+}
+
+.about__content {
+}

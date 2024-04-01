@@ -1,0 +1,41 @@
+.card {
+  display: flex; /* Use flexbox to arrange items in a row */
+  justify-content: space-between; /* Align items at each end of the container */
+  align-items: center; /* Center items vertically */
+  border: 3px solid rgb(75, 12, 12); /* Corrected border property */
+  padding: 10px;
+  &__dates {
+  }
+  &__description {
+  }
+  &__image {
+  }
+  &__info {
+  }
+  &__item {
+    &--subtitle {
+    }
+    &--title {
+    }
+  }
+  &__link {
+  }
+  &__subtitle {
+  }
+  &__text {
+  }
+  &__title {
+  }
+}
+.content {
+}
+.footer {
+  &__copyright {
+  }
+}
+.header {
+}
+
+body {
+  background-color: aqua;
+}
