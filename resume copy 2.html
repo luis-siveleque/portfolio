@@ -14,8 +14,8 @@
     </header>
 
     <main class="content">
-      <article id="profile" class="profile card">
-        <section class="card__section">
+      <article id="profile" class="card">
+        <section class="card__section info">
           <figure class="card__photo">
             <img
               src="profile-pic.jpg"
@@ -25,12 +25,12 @@
           </figure>
           <div class="card__info">
             <h1 class="card__title-one">Luís Siveleque</h1>
-            <h2 class="card__title-two">Fullstack Developer</h2>
+            <h2 class="card__title-three-black">Fullstack Developer</h2>
+            <address class="card__address">123 Main Street, Cityville</address>
           </div>
         </section>
 
         <section class="card__section">
-          <address class="card__address">123 Main Street, Cityville</address>
           <div class="card__info">
             <p class="card__phone">Phone: +1234567890</p>
             <p class="card__email">
@@ -74,6 +74,16 @@
 
       <article class="card">
         <section class="card__section">
+          <h2 class="card__title-two">Skills</h2>
+          <ul class="card__list">
+            <li class="card__item">HTML</li>
+            <li class="card__item">CSS</li>
+            <li class="card__item">JavaScript</li>
+            <!-- Add more skills as needed -->
+          </ul>
+        </section>
+
+        <section class="card__section">
           <h2 class="card__title-two">Experience</h2>
 
           <div class="card__item">
@@ -108,10 +118,10 @@
         </section>
       </article>
 
-      <aside class="card"></aside>
+      <aside class="card">Aside</aside>
     </main>
 
-    <footer class="footer">
+    <footer class="card footer">
       <p class="footer__copyright">
         &copy; 2024 Luís Siveleque. All rights reserved.
       </p>

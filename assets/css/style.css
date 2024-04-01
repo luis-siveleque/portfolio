@@ -38,12 +38,23 @@ body {
   padding: 5px;
   display: inline-block;
   width: 50%; /* Each subitem takes 50% of the width */
+  height: auto;
   box-sizing: border-box; /* Include padding and border in width calculation */
   background-color: bisque;
   border: 1px solid rgb(9, 9, 74);
   margin: 0 5px;
   padding: 10px;
   border-radius: 10px;
+
+  /* height: 0; */
+  /* min-height: 200px; */
+  /* min-height: min-content; */
+}
+
+.card__section.info {
+  display: flex; /* Use flexbox to arrange items in a row */
+  justify-content: space-between; /* Space items evenly along the main axis */
+  align-items: center; /* Center items vertically */
 }
 
 .card__photo {
@@ -55,13 +66,15 @@ body {
 }
 .card__item {
   border: 1px solid black;
-  margin: 0 10px 0;
+  margin: 0 0px 5px;
   padding: 5px;
   /* display: grid; */
 }
-.ca .card__image {
+.card__image {
 }
 .card__info {
+  flex: 1;
+  padding-left: 10px;
 }
 .card__name {
 }
@@ -92,6 +105,14 @@ body {
 
 .card__title-three {
   color: var(--red);
+}
+.card__list {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.card__item {
+  margin-bottom: 5px; /* Add space between list items */
 }
 
 .footer {
