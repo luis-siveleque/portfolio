@@ -4,30 +4,79 @@
   align-items: center; /* Center items vertically */
   border: 3px solid rgb(75, 12, 12); /* Corrected border property */
   padding: 10px;
+  .about {
+  &__description {
+  }
+  &__title {
+  }
+}
+
+
+.card {
+  &__address {
+  }
+  &__contact {
+  }
   &__dates {
   }
   &__description {
+  }
+  &__email {
   }
   &__image {
   }
   &__info {
   }
   &__item {
-    &--subtitle {
-    }
-    &--title {
-    }
   }
   &__link {
   }
+  &__phone {
+  }
+  &__photo {
+  }
+  &__section {
+  }
   &__subtitle {
   }
-  &__text {
+  &__title {
+  }
+  &__title-one {
+  }
+  &__title-three {
+  }
+  &__title-two {
+  }
+}
+
+
+.content {
+}
+.education {
+  &__dates {
+  }
+  &__degree {
+  }
+  &__item {
+  }
+  &__subtitle {
   }
   &__title {
   }
 }
-.content {
+.experience {
+  &__dates {
+  }
+  &__description {
+  }
+  &__item {
+  }
+  &__position {
+  }
+  &__subtitle {
+  }
+  &__title {
+  }
 }
 .footer {
   &__copyright {
@@ -35,7 +84,27 @@
 }
 .header {
 }
-
-body {
-  background-color: aqua;
+.profile {
+  &__address {
+  }
+  &__contact {
+  }
+  &__email {
+  }
+  &__image {
+  }
+  &__info {
+  }
+  &__link {
+  }
+  &__name {
+  }
+  &__phone {
+  }
+  &__photo {
+  }
+  &__section {
+  }
+  &__title {
+  }
 }
